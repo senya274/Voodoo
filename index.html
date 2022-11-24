@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="wrapper__form"> 
+          <div class="wrapper__form_text">   
+            <h1>Contact Us</h1>
+            <p>The Voodoo team is looking forward to hearing from you!</p>
+           
+           <form id="form" class="form">
+              <input class="input" type="text" placeholder="Full Name*">
+              <input class="input" type="text" placeholder="Title/Position*">
+              <select class="select" type="text" option="Title/Position*">
+                <option>Title/Position*</option>
+                <option>Title/Position2</option>
+                <option>Title/Position3</option>
+              </select>
+              <input class="input" type="email" placeholder="Email Address*">
+              <input class="input" type="number" placeholder="Phone Number*">
+              <select class="select" type="text" option="Medical Profession*">
+                <option>option1</option>
+                <option>option2</option>
+                <option>option3</option>
+                <option>option4</option>
+                <option>option5</option>
+              </select>
+              <input class="input" type="text" placeholder="Type of Inquiry*">  
+              </div>
+              <div class="form__input_text">
+                <input class="textarea" type="textarea" >
+              </div>
+              <button class="form__button" href="#">Send Message</button>
+            </form>
+        </div>
+        <div class="map" id="map">
+        </div>
+        </div>
+        
+      </div>
+    </div>
+    
+      <script src="/main.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQMXOkMWAZapmav136-cC87V4Zl-kW7U4&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v6_cABCDE" async defer></script>
+    </body>
+    
+    </html>
